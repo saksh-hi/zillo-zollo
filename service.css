@@ -1,0 +1,385 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: aliceblue;
+}
+
+nav {
+    height: 17vh;
+    width: 100vw;
+    background-color: black;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul img {
+    height: 13vh;
+}
+
+ul a {
+    text-decoration: none;
+    font-size: 27px;
+    margin-right: 50px;
+    color: aliceblue;
+}
+
+ul a img {
+    height: 7vh;
+}
+
+.ser-elem1 {
+    height: 100%;
+    width: 100%;
+}
+
+.our-services {
+    font-size: 100px;
+    position: absolute;
+    top: 40%;
+    color: aliceblue;
+    left: 30%;
+}
+
+.ser-elem2 {
+    height: 100%;
+    width: 100%;
+}
+
+.ser-con1 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    z-index: 199;
+}
+
+.ser-con1 .boxup1 h1 {
+    color: white;
+    position: absolute;
+    z-index: 199;
+    top: 140vh;
+    font-size: 40px;
+    left: 2vw;
+    /* transition: 2s; */
+}
+
+.ser-con1 .boxup1 p {
+    position: absolute;
+    z-index: 199;
+    top: 280vh;
+    font-size: 25px;
+    margin-left: 30px;
+}
+
+.ser-con1 .boxup1 p span {
+    font-size: 43px;
+    margin-bottom: 40px;
+}
+
+.ser-con1 .boxup2 p {
+    position: absolute;
+    z-index: 199;
+    top: 280vh;
+    font-size: 25px;
+    margin-left: 30px;
+}
+
+.ser-con1 .boxup2 p span {
+    font-size: 43px;
+    margin-bottom: 40px;
+}
+
+.ser-con1 .boxup3 p {
+    position: absolute;
+    z-index: 199;
+    top: 280vh;
+    font-size: 25px;
+    margin-left: 30px;
+}
+
+.ser-con1 .boxup3 p span {
+    font-size: 43px;
+    margin-bottom: 40px;
+}
+
+.ser-con1 .boxup2 h1 {
+    position: absolute;
+    z-index: 199;
+    top: 140vh;
+    font-size: 40px;
+    margin-left: 40px;
+    /* left: 2vw; */
+}
+
+.ser-con1 .boxup2 h2 {
+    position: absolute;
+    z-index: 199;
+    font-size: 25px;
+    top: 150vh;
+    margin-left: 40px;
+}
+
+.ser-con1 .boxup3 h1 {
+    position: absolute;
+    z-index: 199;
+    top: 140vh;
+    font-size: 40px;
+    margin-left: 40px;
+    /* left: 2vw; */
+}
+
+.ser-con1 .boxup3 h2 {
+    position: absolute;
+    z-index: 199;
+    font-size: 25px;
+    top: 150vh;
+    margin-left: 40px;
+}
+
+.ser-con1 div:hover h1 {
+    color: black;
+}
+
+.ser-con1 div:hover p {
+    color: black;
+}
+
+.ser-con1 div:hover p {
+    color: black;
+}
+
+.ser-con1 div:hover h2 {
+    color: black;
+}
+
+.ser-con1 .boxup1 h2 {
+    color: white;
+    position: absolute;
+    z-index: 199;
+    top: 150vh;
+    font-size: 25px;
+    font-weight: 400;
+    left: 4vh;
+}
+
+.ser-con1 div {
+    height: 800px;
+    width: 447px;
+    border: 1px solid grey;
+    overflow: hidden;
+}
+
+.ser-up1 {
+    height: 50% !important;
+    width: 500px;
+    background-color: whitesmoke;
+    position: relative;
+    top: -50%;
+    border: none !important;
+    transition: 0.2s;
+}
+
+.ser-con1 div:hover div {
+    top: 0;
+}
+
+.ser-up2 {
+    height: 50% !important;
+    width: 500px;
+    background-color: white;
+    position: relative;
+    top: 50%;
+    border: none !important;
+    transition: 0.2s !important;
+}
+
+.ser-con2 div:hover div {
+    top: 40%;
+}
+
+
+/* second */
+
+.ser-con2 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    margin-top: 182px;
+}
+
+.ser-elem3 {
+    height: 100%;
+    width: 100%;
+    margin-top: 180px;
+    /* background-color: aqua; */
+}
+
+.pg12 {
+    height: 60%;
+    width: 100%;
+    background-color: black;
+}
+
+.elem-circle {
+    height: 1400px;
+    width: 1300px;
+    margin-top: 250px;
+    margin-left: 10px;
+    border: 1px solid gray;
+    border-radius: 900px;
+    margin-top: 400px;
+}
+
+.elem-circle header {
+    font-size: 70px;
+    margin-left: 450px;
+    margin-top: 100px;
+}
+
+.elem-circle h1 {
+    font-size: 40px;
+    margin-left: 530px;
+    margin-top: 20px;
+}
+
+.nav1 {
+    font-size: 20px;
+    display: flex;
+    width: 950px;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+.nav1 div {
+    padding: 14px 20px;
+    border: 1px solid whitesmoke;
+    border-radius: 40px;
+}
+
+.elem-circle h2 {
+    font-size: 40px;
+    margin-left: 420px;
+    margin-top: 40px;
+}
+
+.nav2 {
+    font-size: 20px;
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+    margin-left: 350px;
+    margin-top: 40px;
+}
+
+.nav2 div {
+    padding: 14px 20px;
+    border: 1px solid whitesmoke;
+    border-radius: 50px;
+}
+
+.elem-circle h3 {
+    font-size: 40px;
+    margin-left: 420px;
+    margin-top: 40px;
+}
+
+.nav3 {
+    font-size: 20px;
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+    margin-left: 350px;
+    margin-top: 40px;
+}
+
+.nav3 div {
+    padding: 14px 20px;
+    border: 1px solid whitesmoke;
+    border-radius: 50px;
+}
+
+.full-name {
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 2px solid whitesmoke;
+    width: 600px;
+    height: 30px;
+    border-radius: 50px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin-left: 350px;
+    margin-top: 80px;
+}
+
+.email-add {
+    padding: 10px 20px;
+    border: 2px solid whitesmoke;
+    width: 600px;
+    height: 30px;
+    border-radius: 50px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin-left: 350px;
+    margin-top: 40px;
+}
+
+.project-dec {
+    height: 130px;
+    width: 500px;
+    border: 2px solid whitesmoke;
+    margin-left: 400px;
+    margin-top: 70px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.elem-circle button {
+    padding: 20px 100px;
+    background-color: #1c6bff;
+    border-radius: 50px;
+    font-size: 20px;
+    color: #e3e3e3;
+    margin-left: 500px;
+    margin-top: 40px;
+}
+
+.nav4 {
+    font-size: 31px;
+    font-weight: 600;
+    display: flex;
+    width: 550px;
+    justify-content: space-between;
+    margin-left: 400px;
+    margin-top: 300px;
+}
+
+.nav5 {
+    display: flex;
+    width: 550px;
+    justify-content: space-between;
+    margin-left: 420px;
+    font-size: 22px;
+    margin-top: 50px;
+}
+
+.nav5 ol li {
+    list-style: none;
+    margin-top: 18px;
+}
+
+footer {
+    color: rgb(121, 119, 119);
+    margin-left: 500px;
+    margin-top: 50px;
+}
